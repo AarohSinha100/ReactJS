@@ -1,0 +1,19 @@
+.nav-div{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 1px 1px 5px 1px rgb(68, 148, 223);
+    
+}
+
+.nav-div>h3{
+    color:rgb(68, 148, 223) ;
+    padding: 10px;
+}
+
+.nav-div>h4{
+    color: white;
+    padding: 10px;
+
+}

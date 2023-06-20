@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+.main-h1{
+    color: white;
+    font-weight: bolder;
+    font-family: 'Inter', sans-serif;;
+}
+
+.main-div{
+    color: white;
+}
+
+.main-div ul{
+    list-style: none;
+}
+
+.main-div ul li::before{
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: rgb(68, 148, 223);
+    margin-right: 10px;
+    display: inline-block;
+    width: 1em;
+}
